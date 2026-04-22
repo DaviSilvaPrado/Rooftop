@@ -1,0 +1,349 @@
+*{ margin: 0;
+box-sizing: border-box;}
+
+body{ font-family: "Roboto", sans-serif;}
+
+li{ display: inline-block;
+text-transform: uppercase;
+font-size: 13px;
+width: 4%;}
+
+ul{ text-align: center;
+padding: 0%;}
+
+#logo{ width: 20%;
+vertical-align: middle;}
+
+#logo img{ width: 66.71px;
+height: 79.38px;}
+
+header{ padding-top: 15px;}
+
+.relative{ height: 78vh;
+background-image: url(temperando.png);
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+text-align: center;}
+
+a{text-decoration: none;
+ color: black;
+ font-size: 13px;}
+
+span{ font-family: "Playfair Display", serif;
+font-size: 72px;
+color: white;
+letter-spacing: 10.8px;}
+
+div{text-transform: uppercase;
+font-size: 18px;
+text-align: center;
+color: white;}
+
+hr{color: white;}
+
+.absolute{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin: 16px;
+padding: 8px;
+}
+
+.esquerda{
+    position: fixed;
+    left: 0;
+    top: 45%;
+}
+
+.esquerda div{
+    position: absolute;
+    left:0;
+    transform: rotate(90deg);
+    top: 45%;
+    font-size: 13px;
+    color: black;
+}
+
+.direita{
+    position: fixed;
+    right: 0;
+    top: 45%;
+}
+
+.direita div{
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 45%;
+    font-size: 13px;
+}
+.menu1{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1257.5px;
+    width: 504px;
+    text-align: left;
+}
+
+.container{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1257.5px;
+    width: 504px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dentro1{
+    align-items: center;
+    box-sizing: border-box;
+    color: #777;
+    display: wrap;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 1257.5px;
+    width: 504px;
+    text-align: left;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.dentro2{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 382px;
+    width: 504px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.sectitulo{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 322px;
+    width: 474px;
+    text-align: left;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+h1{
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    font-family: "PlayFair Display", serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: normal;
+    height: 72px;
+    width: 474px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+p{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: normal;
+    height: 120px;
+    width: 474px;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+    left: 300px;
+    top: 350px;
+
+}
+
+.btnmenu{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: normal;
+    height: 50px;
+    width: 197.625px;
+    background-color: rgb(173, 153, 102);
+    border-bottom: rgb(173, 153, 102);
+    color: white;
+    position: relative;
+    left: 300px;
+    top: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.dentroli{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: normal;
+    height: 1175.5px;
+    width: 665px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    right: 120px;
+    
+}
+
+.listamenu1{
+    height: 1175.5px;
+    width: 635px;
+    line-height: 25.5px;
+    background-color: rgb(250, 245, 240);
+    position: relative;
+    bottom: 442px;
+    left: 1000px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.textomenu{
+    height: 208.5px;
+    width: 474px;
+    line-height: 25.5px;
+    color: #777;
+    margin-bottom: 50px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    position: relative;
+    left: 75px;
+    bottom: 70px;
+}
+
+h3{
+    box-sizing: border-box;
+    color: black;
+    font-family: "PlayFair Display", serif;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    height: 51.5px;
+    line-height: 31.5px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: 15px;
+}
+
+.lista1{
+    box-sizing: border-box;
+    color: #777;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 147px;
+    width: 474px;
+    line-height: 25.5px;
+    position: relative;
+    text-align: center;
+}
+
+.listamenu2{
+    box-sizing: border-box;
+    color: #777;
+    display: list-item;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 86px;
+    width: 474px;
+    line-height: 25.5px;
+    padding-bottom: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 650px;
+    right: 250px;
+    
+}
+
+.itemmenu{
+    box-sizing: border-box;
+    color: black;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 25.5px;
+    line-height: 27.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: none;
+    position: relative;
+    left: 250px;
+}
+
+.listamoney{
+    box-sizing: border-box;
+    color: black;
+    display: inline;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    letter-spacing: normal;
+    line-height: 25.5px;
+    text-align: center;
+    position: relative;
+}
+
+.itemm2{
+    box-sizing: border-box;
+    color: #777;
+    display: block;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 25.5px;
+    width: 530;
+    line-height: 25.5px;
+    text-align: center;
+    text-transform: none;
+    position: relative;
+    left: 260px;
+}
